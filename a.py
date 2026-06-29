@@ -95,9 +95,10 @@ with st.sidebar:
 
     with col2:
 
-        image_path = r"C:\Users\saiyed saffana\Desktop\DONATELIFE AI\images.jpg"
+        image_path = "images.jpg"
 
         if os.path.exists(image_path):
+
             st.image(
                 image_path,
                 width=170
@@ -106,7 +107,7 @@ with st.sidebar:
     st.markdown(
         """
         <h2 style='text-align:center;color:#1b2a57;'>
-        VARDAN AI
+            VARDAN AI
         </h2>
         """,
         unsafe_allow_html=True
