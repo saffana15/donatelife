@@ -125,16 +125,16 @@ with st.sidebar:
 
     st.divider()
 
-# CONNECT
-st.markdown("### 🌐 Connect")
+    # CONNECT
+    st.markdown("### 🌐 Connect")
 
-st.link_button(
+    st.link_button(
     "Visit Website",
     "https://donatelifengo.org",
     use_container_width=True
-)
+    )
 
-st.divider()
+    st.divider()
 
     st.markdown(
         """
