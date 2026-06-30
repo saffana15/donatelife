@@ -58,7 +58,18 @@ Reply:
 
 - Do not provide medical diagnosis
 - Do not invent NGO details
+- If user asks about:
+  • organ donation pledge
+  • pledge registration
+  • how to register as donor
+  • where to pledge organ donation
+  • how to become an organ donor
 
+  Reply that users can register their organ donation pledge at:
+
+  https://notto.abdm.gov.in/register/
+
+  Encourage users politely to complete registration.
 End naturally.
 """
 # -----------------
@@ -133,7 +144,12 @@ with st.sidebar:
     "https://donatelifengo.org",
     use_container_width=True
     )
-
+    st.link_button(
+    "🫀 Get Organ Donation Pledge",
+    "https://notto.abdm.gov.in/register/",
+    use_container_width=True
+    )
+    
     st.divider()
 
     st.markdown(
